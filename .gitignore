@@ -8,3 +8,8 @@
 .Rdata
 # Data file is too big.
 household_power_consumption.txt
+
+# Mac turds
+.DS_Store
+*/.DS_Store
+
