@@ -6,3 +6,5 @@
 
 # R data files from past sessions
 .Rdata
+# Data file is too big.
+household_power_consumption.txt
