@@ -8,6 +8,8 @@
 .Rdata
 # Data file is too big.
 household_power_consumption.txt
+assignment2/summarySCC_PM25.rds
+assignment2/Source_Classification_Code.rds
 
 # Mac turds
 .DS_Store
