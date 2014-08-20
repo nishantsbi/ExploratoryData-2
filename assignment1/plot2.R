@@ -11,6 +11,6 @@ t <- x[as.Date(strptime(x$Date, "%d/%m/%Y")) %in% date_range,]
 
 # plot Global active power. 
 png("plot2.png", width=480, height=480, bg="white")
-plot(t, t$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
+plot(t$dt, t$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
     
